@@ -44,8 +44,6 @@ body{
 }
 #right{
     width: 60%;
-    background-position: center;
-    background-size: cover;
     background-repeat: no-repeat;
 }
 #right img{
@@ -119,6 +117,7 @@ body{
 @media screen and (max-width: 500px){
     #container{
         display: block;
+        height: 1200px;
     }
     #left,#right{
         width: 100%;
